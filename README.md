@@ -1,4 +1,4 @@
-# e-Learning Management System
+# Clustor Learning Management System
 
 A learning management and online assessment system for academic education.
 
@@ -37,7 +37,7 @@ A learning management and online assessment system for academic education.
 1. Clone the project
 
 ```bash
-git clone https://github.com/nz-m/eLMS-SWE.git
+git clone https://github.com/VinaySonekar/LMS.git
 ```
 
 2. Go to the project directory
