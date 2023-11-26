@@ -40,13 +40,7 @@ A learning management and online assessment system for academic education.
 git clone https://github.com/VinaySonekar/LMS.git
 ```
 
-2. Go to the project directory
-
-```bash
-cd eLMS-SWE
-```
-
-3. Create a virtual environment and activate it (Windows)
+2. Create a virtual environment and activate it (Windows)
 
 ```bash
 python -m venv env
@@ -56,7 +50,7 @@ python -m venv env
 env\Scripts\activate
 ```
 
-4. Install dependencies
+3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -68,7 +62,7 @@ pip install -r requirements.txt
 pip install -r requirements.txt --use-deprecated=legacy-resolver
 ```
 
-5. Make migrations and migrate
+4. Make migrations and migrate
 
 ```bash
 python manage.py makemigrations
@@ -78,13 +72,13 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-6. Create admin/superuser
+5. Create admin/superuser
 
 ```bash
 python manage.py createsuperuser
 ```
 
-7. Finally run the project
+6. Finally run the project
 
 ```bash
 python manage.py runserver
